@@ -4,7 +4,7 @@ DeepArchi methodology skills for [DeepSeek Harness](https://github.com/deepseek-
 
 A DSH bundle: installing it mounts the bundled skills into the session catalog, so the agent can load them like any built-in skill.
 
-**当前版本 v0.2.0 · 预览版**
+**当前版本 v0.2.1 · 预览版**
 
 ---
 
