@@ -1,0 +1,10 @@
+# DeepArchi skill pack — one patch layer mounting the bundled skills.
+#
+# The provider plugin below reads each skill directory beside this package
+# (`skills/<name>/SKILL.md`), so no absolute path or other configuration is
+# required. It registers the skills on `ctx.skills` through the same capability
+# the built-in filesystem provider uses.
+
+- insert:
+    - id: deeparchi-skills
+      name: 'dsh-deeparchi-skills'
