@@ -4,7 +4,7 @@ DeepArchi methodology skills for [DeepSeek Harness](https://github.com/deepseek-
 
 A DSH bundle: installing it mounts the bundled skills into the session catalog, so the agent can load them like any built-in skill.
 
-**当前版本 v0.1.0 · 预览版**
+**当前版本 v0.2.0 · 预览版**
 
 ---
 
@@ -13,8 +13,11 @@ A DSH bundle: installing it mounts the bundled skills into the session catalog, 
 | 技能 | 用途 | 依赖 |
 |------|------|------|
 | `architecture-gap-analysis` | 把企业/银行业务架构文档对照 BIAN、TOGAF 等标准框架做差距分析，输出咨询级对标报告与改进路线图 | 无。自带 BIAN Business Area 速查、财务域 Service Domain 清单、图表管线参考 |
+| `patent-portfolio-review` | 专利组合审查：公开数据源 + 三层深度分析（数据聚合 / 商业对齐 / 风险预测），输出企业 IP 诊断报告 | 无。需要时可自行接入任意公开专利检索源或商业企业信息 API |
 
-技能内容来自深度架构（DeepArchi）在企业架构咨询中的实际工作方法。随包附带的 `references/` 是方法的一部分，不是示例数据。
+技能内容来自深度架构（DeepArchi）在企业架构与知识产权咨询中的实际工作方法。随包附带的 `references/` 是方法的一部分，不是示例数据。
+
+> 说明：`patent-portfolio-review` 只覆盖公开方法层面（三层框架、引用图流程、权利要求范围启发式）。涉及具体客户案例的实施细节不在公开包内。
 
 ## 安装
 

@@ -1,7 +1,7 @@
 {
   "name": "dsh-deeparchi-skills",
-  "version": "0.1.0",
-  "description": "DeepArchi methodology skills for DeepSeek Harness — enterprise architecture gap analysis against BIAN/TOGAF.",
+  "version": "0.2.0",
+  "description": "DeepArchi methodology skills for DeepSeek Harness — enterprise architecture gap analysis against BIAN/TOGAF, and patent portfolio review.",
   "type": "module",
   "license": "MIT",
   "main": "lib/index.js",
